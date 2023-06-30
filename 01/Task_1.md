@@ -2,6 +2,9 @@
 
 ### Zapytania DML - SELECT 
 
+1) Utwórz nową bazę danych i wywołaj skrypt.
+
+https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
 
 2) Zbuduj zapytania SELECT:
 
@@ -27,4 +30,19 @@
 5) Zbuduj zapytanie łączące:
 
    - Zbuduj zapytanie łączące kategorie z filmami wyświetl tylko i wyłączeni film oraz nazwę kategorii
-   - Usuń pierwszy rekord z tabeli tabeli
+   - Usuń pierwszy rekord z tabeli tabeli film_category
+   - Zbadaj zachowanie zapytania 
+
+```sql
+select * from actor a
+left join film_actor fa  on fa.actor_id  = a.actor_id 
+where fa.actor_id  is null
+```
+
+oraz
+
+```sql
+select * from actor a
+left join film_actor fa  on fa.actor_id  = a.actor_id 
+where fa.actor_id  is not null
+```
