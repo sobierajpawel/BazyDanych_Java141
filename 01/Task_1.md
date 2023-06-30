@@ -15,11 +15,16 @@
 
   - Pobierz miasta z tabeli `city` gdzię nazwa miasta jest równa `London`
   - Pozbądź się duplikatu za pomocą zapytania GROUP BY
-  - Pozbą
+  - Pozbądź się duplikatów za pomocą zapytania DISTINCT
 
-5) Zbuduj zapytania agregujące:
+4) Zbuduj zapytania agregujące:
 
    -  Zbuduj zapytanie wyliczające średnią długość filmu z tabeli `film` dla ratingu `PG-13`
    -  Zbuduj zapytanie pokazujące minimalną długość oraz maksymalną długość (zmień nazwy kolumn) dla rating `PG-13` lub `PG`
    -  Zbuduj zapytanie pokazujące sumę długości filmów dla rating `PG-13` lub `PG`
    -  Zbuduj zapytanie pokazujące ilość filmów dla rating `PG-13` lub `PG`
+
+5) Zbuduj zapytanie łączące:
+
+   - Zbuduj zapytanie łączące kategorie z filmami wyświetl tylko i wyłączeni film oraz nazwę kategorii
+   - Usuń pierwszy rekord z tabeli tabeli
