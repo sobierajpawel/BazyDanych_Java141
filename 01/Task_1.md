@@ -16,9 +16,9 @@ https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
   
 3) Zapytania grupujące
 
-  - Pobierz miasta z tabeli `city` gdzię nazwa miasta jest równa `London`
-  - Pozbądź się duplikatu za pomocą zapytania GROUP BY
-  - Pozbądź się duplikatów za pomocą zapytania DISTINCT
+   - Pobierz miasta z tabeli `city` gdzię nazwa miasta jest równa `London`
+   - Pozbądź się duplikatu za pomocą zapytania GROUP BY
+   - Pozbądź się duplikatów za pomocą zapytania DISTINCT
 
 4) Zbuduj zapytania agregujące:
 
