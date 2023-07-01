@@ -31,19 +31,4 @@ https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
 
    - Zbuduj zapytanie łączące tabele `city` oraz `county` wyświetl miasta oraz nazwę państw dla krajów = `Poland`, `Australia`, `France`
    - Zbuduj zapytanie łączące kategorie z filmami wyświetl tylko i wyłączeni film oraz nazwę kategorii
-   - Usuń pierwszy rekord z tabeli tabeli film_category
-   - Zbadaj zachowanie zapytania 
 
-```sql
-select * from actor a
-left join film_actor fa  on fa.actor_id  = a.actor_id 
-where fa.actor_id  is null
-```
-
-oraz
-
-```sql
-select * from actor a
-left join film_actor fa  on fa.actor_id  = a.actor_id 
-where fa.actor_id  is not null
-```
