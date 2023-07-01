@@ -16,9 +16,9 @@ https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
   
 3) Zapytania grupujące
 
-  - Pobierz miasta z tabeli `city` gdzię nazwa miasta jest równa `London`
-  - Pozbądź się duplikatu za pomocą zapytania GROUP BY
-  - Pozbądź się duplikatów za pomocą zapytania DISTINCT
+   - Pobierz miasta z tabeli `city` gdzię nazwa miasta jest równa `London`
+   - Pozbądź się duplikatu za pomocą zapytania GROUP BY
+   - Pozbądź się duplikatów za pomocą zapytania DISTINCT
 
 4) Zbuduj zapytania agregujące:
 
@@ -29,20 +29,6 @@ https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
 
 5) Zbuduj zapytanie łączące:
 
+   - Zbuduj zapytanie łączące tabele `city` oraz `county` wyświetl miasta oraz nazwę państw dla krajów = `Poland`, `Australia`, `France`
    - Zbuduj zapytanie łączące kategorie z filmami wyświetl tylko i wyłączeni film oraz nazwę kategorii
-   - Usuń pierwszy rekord z tabeli tabeli film_category
-   - Zbadaj zachowanie zapytania 
 
-```sql
-select * from actor a
-left join film_actor fa  on fa.actor_id  = a.actor_id 
-where fa.actor_id  is null
-```
-
-oraz
-
-```sql
-select * from actor a
-left join film_actor fa  on fa.actor_id  = a.actor_id 
-where fa.actor_id  is not null
-```
