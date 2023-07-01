@@ -29,6 +29,7 @@ https://www.dropbox.com/s/950twvsg9065ulu/export_db.sql?dl=0
 
 5) Zbuduj zapytanie łączące:
 
+   - Zbuduj zapytanie łączące tabele `city` oraz `county` wyświetl miasta oraz nazwę państw dla krajów = `Poland`, `Australia`, `France`
    - Zbuduj zapytanie łączące kategorie z filmami wyświetl tylko i wyłączeni film oraz nazwę kategorii
    - Usuń pierwszy rekord z tabeli tabeli film_category
    - Zbadaj zachowanie zapytania 
