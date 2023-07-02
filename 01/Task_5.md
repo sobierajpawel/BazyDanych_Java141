@@ -1,15 +1,18 @@
 # Zadanie 5
 
-### Widoki
+### Własna baza danych
 
-1) Napisz widok, który:
+1) Stwórz za pomocą poleceń CREATE minimum trzy tabele odnoszące się do wybranego problemu - pamiętaj, że muszą być powiązane kluczami obcymi ze sobą:
 
-    - będzie zawierał powiązanie tabel `city` oraz `country`, wyświetli nazwę miast oraz nazwę państwa,
-      wykorzystaj aliasy tak by kolumna nazwy miasta była wyświetlana jako `nazwa_miasta`, a kolumna 
-      reprezentująca nazwę państwa nazywała się `nazwa_kraju` 
+- system do zarządzania pacjentami
+- biblioteka
+- system produkcyjny 
+- system rejestracji kandydatów
+- system rejestracji zamówień
+- przychodnia
+- rejestracja studentów
+- dowolny inny problem
 
-    - będzie zawierał wyświetlał informacje o aktorach grających w filmach, wyświetl nazwę filmu oraz imię i nazwisko aktora, zastosuj podobnie jak poprzedniu inne nazwy kolumn
+2) Dodaj zapytaniami INSERT rekordy do tabel.
 
-    - będzie wyświetlał dane statystyczny - minimalną, maksymalną, średnią, sumę długości filmów, zgrupowanych wg ratingu
-
-2) Wykonaj zapytania selekcji dla powyższych widoków
+3) Napisz kilka zapytań SELECT również ze złączeniami.

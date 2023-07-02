@@ -1,18 +1,9 @@
 # Zadanie 4
 
-### Własna baza danych
+### Zapytania DML
 
-1) Stwórz za pomocą poleceń CREATE minimum trzy tabele odnoszące się do wybranego problemu - pamiętaj, że muszą być powiązane kluczami obcymi ze sobą:
+1) Napisz zapytania INSERT do tabel `companies`, `job_offers` and `candidates`.
 
-- system do zarządzania pacjentami
-- biblioteka
-- system produkcyjny 
-- system rejestracji kandydatów
-- system rejestracji zamówień
-- przychodnia
-- rejestracja studentów
-- dowolny inny problem
+2) Napisz zapytania UPDATE do powyższych tabel.
 
-2) Dodaj zapytaniami INSERT rekordy do tabel.
-
-3) Napisz kilka zapytań SELECT również ze złączeniami.
+3) Usuń rekordy przy wykorzystaniu zapytania DELETE
