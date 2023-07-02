@@ -6,4 +6,6 @@
 
 2) Napisz zapytania UPDATE do powyższych tabel.
 
-3) Usuń rekordy przy wykorzystaniu zapytania DELETE
+3) Napisz zapytania SELECT ze złączeniami.
+
+4) Usuń rekordy przy wykorzystaniu zapytania DELETE
